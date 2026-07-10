@@ -54,12 +54,14 @@ nav{
     justify-content: center;
     text-align: center;
     padding: 180px;
+    
 }
 
 .hero-content{
     color: white;
     max-width: 1080px;
     margin: auto;
+    object-fit: cover;
 }
 
 .hero-content h1{
@@ -79,3 +81,67 @@ nav{
     font-weight: 700;
 }
 /* Hero Section End */
+
+/* Meet the Speaker section */
+.card-section{
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.card-header{
+    font-weight: 700;
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.card-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+
+.card{
+    border-radius: 20px;
+    border: #eef0f3 2px solid;
+    overflow: hidden;
+    box-shadow: 0 4px 6px/20%;
+}
+
+.card img{
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    height: ;
+}
+
+.card-content{
+    padding: 25px;
+}
+
+.card-content p{
+    text-align: left;
+}
+
+.card h2{
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 1.5rem;
+}
+
+.card-dept{
+    color: #1D4ED8;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.card-content .designation{
+    color: grey;
+    font-size: .8rem;
+    font-weight: 600;
+}
+/* Meet the Speaker section end */
+
+/* Secure your spot start */
