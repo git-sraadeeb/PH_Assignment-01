@@ -285,6 +285,7 @@ hr{
 /* Special AI added section-FAQ */
 .FAQ-section{
    margin-top: 100px;
+   margin-bottom: 50px;
 }
 
 .FAQ-parent{
@@ -353,3 +354,10 @@ hr{
 /* AI section End */
 
 /* Footer start */
+footer{
+    margin-top: 50px;
+    background-color: #071c38;
+}
+.footer{
+    
+}
