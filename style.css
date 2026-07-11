@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .container{
@@ -54,6 +54,7 @@ nav{
     justify-content: center;
     text-align: center;
     padding: 180px;
+    display: flex;
     
 }
 
@@ -74,7 +75,11 @@ nav{
     font-size: 1.3rem;
 }
 
-.hero-btn .common-btn{
+.hero-common-btn{
+    border: none;
+    background-color: #3461df;
+    color: #ffffff;
+    border-radius: 10px;
     margin-top: 390px;
     padding: 16px 52px;
     font-size: 1.25rem;
@@ -113,7 +118,6 @@ nav{
     overflow: hidden;
     object-fit: cover;
     width: 100%;
-    height: ;
 }
 
 .card-content{
@@ -233,12 +237,11 @@ hr .special{
 
 hr{
     margin-bottom: 20px;
-    border: 0.1px solid rgb(255, 255, 255);
+    border: 0.1px solid rgb(226, 226, 226);
 }
 
 .pricebar{
     margin: 15px;
-    flex-grow: 1;
 }
 
 .pricebar ul{
@@ -260,7 +263,6 @@ hr{
     font-size: .7rem;
     background-color: #3461df;
     color: #ffffff;
-}
 }
 
 .pricebar ul li::marker {
@@ -287,13 +289,18 @@ hr{
 
 .FAQ-parent{
     display: flex;
-    margin-left: 120px;
+    align-items: center;
+    border: solid whitesmoke;
+    padding: 35px 30px 30px 45px;
+    border-radius: 35px;
+    box-shadow: 3px 2px 20px rgb(214, 214, 214);
 }
 
 
 .sec-left{
     flex: 1;
-    margin-top: 30px;
+    margin-left: 15px;
+
 }
 
 
@@ -304,14 +311,18 @@ hr{
 }
 
 .tag-name{
-    color: rgb(82, 82, 82);    
+    color: rgb(49, 49, 49);   
+    margin-top: 10px; 
+    font-size: 2.5rem;
 }
 
 .tag-cmt{
     font-weight: 500;
     font-size: .8rem;
-    margin-top: 10px;
+    margin-top: 13px;
     color: gray;
+    display: inline-block;
+    width: 360px;
 }
 
 .sec-right{
@@ -321,19 +332,24 @@ hr{
 }
 
 .qs-ans{
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: rgb(248, 247, 247);
-    padding: 18px;
+    padding: 25px;
     margin: 15px;
+    display: block;
+    box-shadow: 1px .5px 5px gainsboro;
 }
 
 .qs{
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
 .ans{
     font-size: .8rem;
-    color: #515f85;\
+    color: #515f85;
 }
+/* AI section End */
+
+/* Footer start */

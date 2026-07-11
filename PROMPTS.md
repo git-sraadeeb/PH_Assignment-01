@@ -1,0 +1,1 @@
+i am making a Developer meets landing page already I've added navbar herosection meet your speaker section and also pricing section. so before the footer they also give me hidden section which will be suggested by Ai. so what section should I make there?
