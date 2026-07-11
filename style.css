@@ -145,3 +145,91 @@ nav{
 /* Meet the Speaker section end */
 
 /* Secure your spot start */
+.secure-section{
+    text-align: center;
+    padding: 30px;
+}
+
+.secure-header{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.secure-subheader{
+    font-size: .8rem;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.pricing-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    text-align: left;
+    max-width: 100%;
+    align-items: stretch;
+}
+
+.pricing-card{
+    border: #eef0f3 solid .5px;
+    border-radius: 10px;
+    padding: 30px;
+    flex: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    
+}
+
+.pc-header{
+    font-weight: 700;
+    font-size: .7rem;
+    color: gray;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.pc-quantity{
+    font-weight: 500;
+    font-size: .6rem;
+    color: rgb(163, 163, 163);
+    margin-bottom: 20px;
+}
+
+hr{
+    margin-bottom: 20px;
+    border: 0.1px solid rgb(226, 226, 226);
+}
+
+.pricebar{
+    margin: 15px;
+    flex-grow: 1;
+}
+
+.pricebar ul{
+    line-height: 30px;
+}
+
+.pricebar ul li::marker {
+    color: #1D4ED8;
+    font-size: 1rem;
+}
+
+.pricing-btn{
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: #1D4ED8 solid .5px;
+    padding: 7px 0;
+    width: 100%;
+    font-weight: 600;
+    font-size: .7rem;
+    background-color: transparent;
+    color: #1D4ED8;
+}
+
