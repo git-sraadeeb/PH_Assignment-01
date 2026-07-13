@@ -34,7 +34,9 @@ nav{
     gap: 25px;
     justify-content: space-between;
     align-items: center;
-    color: rgb(97, 97, 97);
+    color: rgb(141, 141, 141);
+    font-size: .8rem;
+    font-weight: 600;
 }
 
 .common-btn{
